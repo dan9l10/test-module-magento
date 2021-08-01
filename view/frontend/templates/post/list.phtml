@@ -1,0 +1,7 @@
+<?php /** @var Danylo\Blog\Block\Posts $block */ ?>
+<?php foreach($block->getPosts() as $post): ?>
+    <?php /** @var Danylo\Blog\Model\Post */ ?>
+    <h2><a href="/blog/view/show?id=<?php echo $post->getIdPost();?>"><?php echo $post->getName(); ?></a></h2>
+    <p><?php echo $post->getContent(); ?></p>
+<?php endforeach; ?>
+

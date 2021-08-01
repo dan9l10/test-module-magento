@@ -1,0 +1,13 @@
+{
+    "danylo_blog_posts": {
+        "column": {
+            "id_post": true,
+            "name": true,
+            "content": true,
+            "url": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
